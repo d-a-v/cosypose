@@ -13,8 +13,8 @@ dependencies:
   - backports.functools_lru_cache=1.6.4=pyhd8ed1ab_0
   - binutils_impl_linux-64=2.36.1=h193b22a_2
   - binutils_linux-64=2.36=hf3e587d_10
-  - blas=2.114=mkl
-  - blas-devel=3.9.0=14_linux64_mkl
+  - blas=2.115=mkl
+  - blas-devel=3.9.0=15_linux64_mkl
   - boost=1.70.0=py37h9de70de_1
   - boost-cpp=1.70.0=ha2d47e9_1
   - bzip2=1.0.8=h7f98852_4
@@ -32,16 +32,16 @@ dependencies:
   - ffmpeg=5.0.1=habc3f16_3
   - fontconfig=2.14.0=h8e229c2_0
   - freetype=2.10.4=h0708190_1
-  - gcc_impl_linux-64=11.2.0=h82a94d6_16
-  - gcc_linux-64=11.2.0=h39a9532_10
+  - gcc_impl_linux-64=12.1.0=hea43390_16
+  - gcc_linux-64=12.1.0=h3bb4806_10
   - gettext=0.19.8.1=hf34092f_1004
   - giflib=5.2.1=h36c2ea0_2
   - git=2.35.3=pl5321h36853c3_0
   - git-lfs=3.2.0=ha770c72_0
   - gmp=6.2.1=h58526e2_0
-  - gnutls=3.7.6=hb5d6004_2
-  - gxx_impl_linux-64=11.2.0=h82a94d6_16
-  - gxx_linux-64=11.2.0=hacbe6df_10
+  - gnutls=3.7.6=he274497_3
+  - gxx_impl_linux-64=12.1.0=hea43390_16
+  - gxx_linux-64=12.1.0=h1f501c1_10
   - hpp-fcl=1.3.0=py37h3e4de3e_1
   - icu=58.2=hf484d3e_1000
   - ipython=7.33.0=py37h89c1867_0
@@ -53,29 +53,29 @@ dependencies:
   - lame=3.100=h7f98852_1001
   - lcms2=2.12=h3be6417_0
   - ld_impl_linux-64=2.36.1=hea4e1c9_2
-  - libblas=3.9.0=14_linux64_mkl
-  - libcblas=3.9.0=14_linux64_mkl
+  - libblas=3.9.0=15_linux64_mkl
+  - libcblas=3.9.0=15_linux64_mkl
   - libcurl=7.83.1=h7bff187_0
-  - libdrm=2.4.109=h7f98852_0
+  - libdrm=2.4.111=h166bdaf_0
   - libedit=3.1.20191231=he28a2e2_2
   - libev=4.33=h516909a_1
   - libffi=3.2.1=he1b5a44_1007
-  - libgcc-devel_linux-64=11.2.0=h0952999_16
+  - libgcc-devel_linux-64=12.1.0=h1ec3361_16
   - libgcc-ng=12.1.0=h8d9b700_16
   - libgfortran-ng=12.1.0=h69a702a_16
   - libgfortran5=12.1.0=hdcd56e2_16
   - libgomp=12.1.0=h8d9b700_16
   - libiconv=1.16=h516909a_0
   - libidn2=2.3.2=h7f98852_0
-  - liblapack=3.9.0=14_linux64_mkl
-  - liblapacke=3.9.0=14_linux64_mkl
+  - liblapack=3.9.0=15_linux64_mkl
+  - liblapacke=3.9.0=15_linux64_mkl
   - libnghttp2=1.47.0=h727a467_0
   - libnsl=2.0.0=h7f98852_0
   - libpciaccess=0.16=h516909a_0
   - libpng=1.6.37=h21135ba_2
-  - libsanitizer=11.2.0=he4da1e4_16
+  - libsanitizer=12.1.0=ha89aaad_16
   - libssh2=1.10.0=ha56f1ee_2
-  - libstdcxx-devel_linux-64=11.2.0=h0952999_16
+  - libstdcxx-devel_linux-64=12.1.0=h1ec3361_16
   - libstdcxx-ng=12.1.0=ha89aaad_16
   - libtasn1=4.18.0=h166bdaf_1
   - libtiff=4.1.0=h2733197_1
@@ -91,11 +91,11 @@ dependencies:
   - llvm-openmp=14.0.4=he0ac6c6_0
   - lz4-c=1.9.3=h9c3ff4c_1
   - matplotlib-inline=0.1.3=pyhd8ed1ab_0
-  - mkl=2022.0.1=h8d4b97c_803
-  - mkl-devel=2022.0.1=ha770c72_804
-  - mkl-include=2022.0.1=h8d4b97c_803
+  - mkl=2022.1.0=h84fe81f_915
+  - mkl-devel=2022.1.0=ha770c72_916
+  - mkl-include=2022.1.0=h84fe81f_915
   - ncurses=6.3=h27087fc_1
-  - nettle=3.7=h98cffda_0
+  - nettle=3.8=hc379101_0
   - ninja=1.11.0=h924138e_0
   - numpy=1.21.6=py37h976b520_0
   - octomap=1.9.7=h4bd325d_0
@@ -116,7 +116,7 @@ dependencies:
   - pygments=2.12.0=pyhd8ed1ab_0
   - python=3.7.6=cpython_h8356626_6
   - python_abi=3.7=2_cp37m
-  - pytorch=1.8.0=py3.7_cuda11.1_cudnn8.0.5_0
+  - pytorch=1.8.1=py3.7_cuda11.1_cudnn8.0.5_0
   - rclone=1.58.1=h519d9b9_0
   - readline=8.1=h46c0cb4_0
   - rhash=1.4.1=h7f98852_0
@@ -127,7 +127,7 @@ dependencies:
   - tbb=2021.5.0=h924138e_1
   - tinyxml=2.6.2=h4bd325d_2
   - tk=8.6.12=h27826a3_0
-  - torchvision=0.9.0=py37_cu111
+  - torchvision=0.9.1=py37_cu111
   - traitlets=5.2.2.post1=pyhd8ed1ab_0
   - typing_extensions=4.2.0=pyha770c72_1
   - urdfdom=3.1.0=h27087fc_0
@@ -185,7 +185,7 @@ dependencies:
     - importlib-metadata==4.11.4
     - importlib-resources==5.7.1
     - ipdb==0.13.9
-    - ipykernel==6.13.0
+    - ipykernel==6.13.1
     - ipython-genutils==0.2.0
     - jinja2==3.1.2
     - joblib==1.1.0
@@ -193,7 +193,7 @@ dependencies:
     - jsonpatch==1.32
     - jsonpointer==2.3
     - jsonschema==4.6.0
-    - jupyter-client==7.3.1
+    - jupyter-client==7.3.3
     - jupyter-core==4.10.0
     - jupyter-server==1.17.0
     - jupyter-server-proxy==3.2.1
@@ -206,7 +206,7 @@ dependencies:
     - markupsafe==2.1.1
     - matplotlib==3.5.2
     - mistune==0.8.4
-    - msgpack==1.0.3
+    - msgpack==1.0.4
     - multidict==6.0.2
     - nbclassic==0.3.7
     - nbclient==0.6.4

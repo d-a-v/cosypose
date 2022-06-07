@@ -30,6 +30,9 @@ DEBUG_DATA_DIR = LOCAL_DATA_DIR / 'debug_data'
 DEPS_DIR = PROJECT_DIR / 'deps'
 CACHE_DIR = LOCAL_DATA_DIR / 'joblib_cache'
 
+print("PROJECT_DIR = PROJECT_ROOT =", PROJECT_DIR)
+print("DATA_DIR =", DATA_DIR)
+print("LOCAL_DATA_DIR =", LOCAL_DATA_DIR)
 assert LOCAL_DATA_DIR.exists()
 CACHE_DIR.mkdir(exist_ok=True)
 TEST_DATA_DIR.mkdir(exist_ok=True)
